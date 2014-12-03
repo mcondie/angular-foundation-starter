@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="styleApp">
+<head>
+	<title>Style App</title>
+	<!-- inject:css -->
+	<!-- endinject -->
+
+</head>
+<body>
+	<top-bar>
+		<ul class="title-area">
+			<li class="name">
+				<h1><a ui-sref="home">Style App</a></h1>
+			</li>
+			
+		</ul>
+
+		<top-bar-section>
+			<!-- Right Nav Section -->
+			<ul class="right">
+				<li><a ui-sref="sink">Kitchen Sink</a></li>
+			</ul>
+		</top-bar-section>
+	</top-bar>
+<div ui-view></div>
+
+<!-- inject:js -->
+<!-- endinject -->
+</body>
+</html>

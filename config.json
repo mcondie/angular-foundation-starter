@@ -1,0 +1,17 @@
+{
+	"dev":{
+		"deps":{
+			"scripts":[
+				"./src/bower_components/angular/angular.js",
+				"./src/bower_components/angular-foundation/mm-foundation.js",
+				"./src/bower_components/angular-foundation/mm-foundation-tpls.js",
+				"./src/bower_components/angular-ui-router/release/angular-ui-router.js",
+				"./src/bower_components/fastclick/lib/fastclick.js",
+				"./src/bower_components/jquery/dist/jquery.js",
+				"./src/bower_components/jquery-placeholder/jquery.placeholder.js",
+				"./src/bower_components/jquery.cookie/jquery.cookie.js",
+				"./src/bower_components/modernizer/modernizer.js"
+			]
+		}
+	}
+}
